@@ -1,0 +1,21 @@
+Kolom: id
+Data type: INT
+Waarom: Unieke identificatie van elke gebruiker.
+
+Kolom: username
+Data type: VARCHAR(50)
+Waarom: Nodig om in te loggen en gebruikers te onderscheiden.
+
+Kolom: password
+Data type: VARCHAR(255)
+Waarom: Opslaan van een gehashte wachtwoord voor veiligheid.
+
+Vraag:
+Waarom heeft een gebruiker een eigen ID nodig?
+Antwoord:
+Omdat elke gebruiker een uniek nummer moet hebben.
+
+Vraag:
+Waarom slaan we een wachtwoord niet als normale tekst op?
+Antwoord:
+Voor de veiligheid. We slaan een gehashte versie op.
