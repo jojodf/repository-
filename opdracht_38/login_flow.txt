@@ -1,0 +1,7 @@
+1. De gebruiker vult zijn gebruikersnaam of e-mailadres en wachtwoord in op het loginformulier.
+2. Wanneer de gebruiker op "Inloggen" klikt, worden de gegevens naar de server gestuurd.
+3. De server zoekt de gebruiker op in de database.
+4. De server controleert of het ingevoerde wachtwoord overeenkomt met het opgeslagen wachtwoord.
+5. Als de gegevens correct zijn, maakt de server een sessie of login-token aan.
+6. De gebruiker krijgt toegang tot de applicatie en wordt doorgestuurd naar zijn account of dashboard.
+7. Als de gegevens niet correct zijn, stuurt de server een foutmelding terug en moet de gebruiker opnieuw proberen in te loggen.
